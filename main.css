@@ -1,0 +1,90 @@
+
+body {
+    color:#50658f;
+    margin: 0;
+}
+#todoMain {
+    width: 500px;
+    margin: 0 auto;
+    background-color:beige;
+    border-radius: 2px;
+    overflow: hidden;
+}
+#todoHead {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    text-align: center
+}
+#todoHead h2 {
+    margin: 15px;
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+#adderTask {
+    margin-top: 8px; 
+    line-height: 22px;
+}
+#adderTask input, .taskMain input[type = "text"] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #d3d5e3;
+    border-radius: 2px;
+}
+.taskMain label {
+    display: inline-block;
+    max-width: 337px;
+}
+.tasks {
+    margin-top: 1px;
+}
+.taskMain input[type = "text"] {
+    width: 270px;
+    display: none;
+}
+#adderTask label {
+    background-color:blueviolet;
+    padding: 2px 8px;
+    border-radius: 2px;
+    color: white;
+    float: right;
+}
+#adderTask label:hover {
+    background-color: slateblue;
+}
+#adderTask label:active {
+    background-color: darkslateblue;
+}
+.taskMain {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    color: #344564;
+}
+
+
+.taskOptions {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.tOps {
+    box-sizing: border-box;
+    background-color:blanchedalmond;
+    padding: 6px 10px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.tOps:hover {
+    background-color: #e7e4de;
+}
+.clear {
+    clear: both;
+}
+.tOps.saverTask {
+    display: none;
+} 
